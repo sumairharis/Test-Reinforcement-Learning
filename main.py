@@ -10,5 +10,5 @@ def run_colab():
 
 @app.route("/")
 def home():
-    return "Hello Verceller wes"
+    return "Hello Verceller wes latest"
 

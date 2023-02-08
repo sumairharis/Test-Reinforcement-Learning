@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "vcronjobber/main.py",
+      "src": "main.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "vcronjobber/main.py"
+      "dest": "main.py"
     }
   ]
 }
